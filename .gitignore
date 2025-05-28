@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.so
+.Python
+env/
+venv/
+ENV/
+pip-wheel-metadata/
+.installed.cfg
+*.egg
+*.sqlite3 # If you add a SQLite database later and don't want to commit the data itself
+
+# IDE / OS specific
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# Sensitive files (if any, like a .env file with secrets)
+# .env
+
+# Large files that should be handled by Git LFS (if you use it)
+# Or if you don't want to commit large models/videos at all to the main repo
+*.onnx
+*.mp4
+*.pt
+# Consider if your models/ads should be in the repo or downloaded/managed separately
