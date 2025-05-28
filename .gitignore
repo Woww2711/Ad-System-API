@@ -26,7 +26,7 @@ Thumbs.db
 
 # Large files that should be handled by Git LFS (if you use it)
 # Or if you don't want to commit large models/videos at all to the main repo
-*.onnx
-*.mp4
+# *.onnx
+# *.mp4
 *.pt
 # Consider if your models/ads should be in the repo or downloaded/managed separately
